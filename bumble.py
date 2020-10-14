@@ -18,11 +18,11 @@ class BumbleBot():
 
         sleep(1)
         email = self.driver.find_element_by_xpath('//*[@id="email"]')
-        email.send_keys('alimbetov.m@mail.ru')
+        email.send_keys('******') # here type your bumble login id
 
         sleep(1)
         password = self.driver.find_element_by_xpath('//*[@id="pass"]')
-        password.send_keys('barcamuxa18')
+        password.send_keys('******') #here type your bumble id password
 
         login = self.driver.find_element_by_xpath('//*[@id="u_0_0"]')
         login.click()
